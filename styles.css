@@ -1,0 +1,107 @@
+/* Global styles */
+body {
+    font-family: 'AR One Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+
+h1,h2,p,a,ul,li{
+    color: white;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styles */
+header {
+    border-radius: 20px;
+    background-color: #262626;
+    color: white;
+    padding: 10px 0;
+    margin: 10px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    border-bottom: 2px solid white;
+}
+
+/* Section styles */
+.section {
+    padding: 20px 0;
+    background-color: #262626;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+/* About Me section styles */
+#imageContainer {
+    text-align: center;
+}
+
+#logo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+/* Hobbies section styles */
+#hobbies ul {
+    margin-left: 20px;
+}
+
+/* Projects section styles */
+#projects a {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#projects a:hover {
+    text-decoration: underline;
+}
+
+/* Skills section styles */
+#skills ul {
+    margin-left: 20px;
+}
+
+/* Contact section styles */
+#contact p {
+    margin-bottom: 10px;
+}
+
+#contact a {
+    color: #1507d9;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+footer{
+    margin: 10px;
+    background-color: #262626;
+    border-radius: 10px;
+}
